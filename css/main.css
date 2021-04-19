@@ -74,3 +74,11 @@ a {
     padding: 55px;
 
 }
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding:50pt;
+    font-size: 24px;
+    font-weight:bold
+}
