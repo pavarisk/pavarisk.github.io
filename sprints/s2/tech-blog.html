@@ -29,30 +29,42 @@
       <div class="blog-wrapper">
       <h1>Best practices associated with using classes vs. ids</h1> 
       <img src="../../images/web-dev.jpg" alt="Buddha" width="600" height="400">
+      <h1>What are classes and ID selector when it comes to CSS?</h1>
       <p class="tab"> 
-        In CSS, you can assign and control the style of HTML elements on a web 
-        page using a number of selectors. ID and class are two of the mostly used 
-        CSS selectors that not only help with building the layout of the HTML 
-        document but they also help with styling it. They are also used for 
-        controlling and manipulating the DOM elements via JavaScript but we 
-        shall leave that topic to another post.
-
+        In CSS, you can assign and control the style of HTML component on a web 
+        page using a number of selectors. ID and class are two of the mostly 
+        used CSS selectors that not only help with building the layout of the 
+        HTML document but they also help with styling it.
+      </p>
+      <p>
         Let’s first start with how ID and class selectors are used and then we 
         will continue with their differences and when to use each of them.
       </p>
+
+      <h1>How to use ID and class selector?</h1>
+
+      <p class="tab">
+        To use an ID selector on CSS, you simply put ‘ <b>#</b> ’ (hashtag) in front of your element ID.<br>
+        To use a class selector on CSS, you would instead use a  ‘ <b>.</b> ’  (full stop/dot) in front of the element Class.<br>
+        
+       </p>
+
         <div id="class-id-img-box">
         <img src="../../images/ClassIDs.png" alt="class & ids">
         <img src="../../images/classid2.PNG" alt="class & ids">
         </div>  
-       <p class="tab">
-        The id selector is used for selecting a single HTML element with 
-        a unique id attribute value. In the following example, you will see 
-        a division element &lt;div&gt; with an id attribute value of header.<br>
-        To use an ID selector on CSS, you simply put '#' (hashtag) in front of your 
-        element ID.<br>
-        To use a class selector on CSS, you would instead use a '.' (fullstop/dot)
-        infront of the element Class.
-       </p>
+
+      <h1>What are the differnces?</h1>
+        <p>
+          The difference between an <b>ID</b> and a <b>Class</b> is that an <b>ID</b> is 
+          only used to identify <b>one single component</b> in our HTML. 
+          IDs are only used when one element on the page should have 
+          a particular style applied to it. However, <b>a class</b> can be 
+          used to identify <b>more than one HTML component.</b>
+
+        </p>
+
+        <h1>When to use them?</h1>
 
        <p class="tab">
         One trick I would use to determine which selector to use is asking myself
@@ -71,8 +83,12 @@
        </p>
    </div>
 
-  <footer>
-     <a href="../../index.html">Back to Home</a>
-  </footer>
+   <div class="footer-wrapper">
+    <div class="footer-madeby">
+     <footer>
+        <h2>Made by <a id="fb-link" href="https://www.facebook.com/pavarisk">Pavaris Kakanat</a></h2>
+    </footer>
+    </div>
+   </div>
   </body>
 </html>
