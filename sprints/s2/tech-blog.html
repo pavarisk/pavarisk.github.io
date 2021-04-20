@@ -29,7 +29,7 @@
       <div class="blog-wrapper">
       <h1>Best practices associated with using classes vs. ids</h1> 
       <img src="../../images/web-dev.jpg" alt="Buddha" width="600" height="400">
-      <p> 
+      <p class="tab"> 
         In CSS, you can assign and control the style of HTML elements on a web 
         page using a number of selectors. ID and class are two of the mostly used 
         CSS selectors that not only help with building the layout of the HTML 
@@ -44,7 +44,7 @@
         <img src="../../images/ClassIDs.png" alt="class & ids">
         <img src="../../images/classid2.PNG" alt="class & ids">
         </div>  
-       <p>
+       <p class="tab">
         The id selector is used for selecting a single HTML element with 
         a unique id attribute value. In the following example, you will see 
         a division element &lt;div&gt; with an id attribute value of header.<br>
@@ -54,7 +54,7 @@
         infront of the element Class.
        </p>
 
-       <p>
+       <p class="tab">
         One trick I would use to determine which selector to use is asking myself
         "Will I need to use this css setting for something else?" If the answer is
         yes. You will probably need a class selector rather than an ID. 
@@ -63,7 +63,8 @@
         <ul>
             <li>If more than one elements on the page will need the same styling, use Class.</li>
             <li>If only one element will use the styling then its best to use an ID selector</li>
-            <li>Use names that defines the function of the HTML the class or id encompass, not just the appearance. For example: "navigation bar" vs "royal blue."</li>
+            <li>Use names that defines the function of the HTML the class or id encompass, not just the appearance.<br>
+                For example: "navigation bar" vs "royal blue."</li>
             <li>Try not to use classes and IDs to replicate HTML elements like h1, h2 and p.</li>
             <li>Rather than overuse classes, try to use div to improve performance.</li>
         </ul>
