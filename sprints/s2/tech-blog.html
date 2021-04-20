@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My blog</title>
+    <meta charset="UTF-8">
+    <link href="../../css/main.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  
+  </head>
+
+    <body>
+      <div class="nav-bar">
+        <div class="leftside">
+          <div class="home">
+            <a href="../../index.html"><h1>Home</h1></a>
+
+          </div>
+          <div class="other">
+            <a href="../../blog-home.html"> <h1>Blogs</h1></a>
+          </div>
+        </div>
+        <div id="name">
+          <h1>Pavaris Kakanat</h1>
+        </div>
+      </div>
+
+
+      <div class="blog-wrapper">
+      <h1>Best practices associated with using classes vs. ids</h1> 
+      <img src="../../images/web-dev.jpg" alt="Buddha" width="600" height="400">
+      <p> 
+        In CSS, you can assign and control the style of HTML elements on a web 
+        page using a number of selectors. ID and class are two of the mostly used 
+        CSS selectors that not only help with building the layout of the HTML 
+        document but they also help with styling it. They are also used for 
+        controlling and manipulating the DOM elements via JavaScript but we 
+        shall leave that topic to another post.
+
+        Let’s first start with how ID and class selectors are used and then we 
+        will continue with their differences and when to use each of them.
+      </p>
+        <div id="class-id-img-box">
+        <img src="../../images/ClassIDs.png" alt="class & ids">
+        <img src="../../images/classid2.PNG" alt="class & ids">
+        </div>  
+       <p>
+        The id selector is used for selecting a single HTML element with 
+        a unique id attribute value. In the following example, you will see 
+        a division element &lt;div&gt; with an id attribute value of header.<br>
+        To use an ID selector on CSS, you simply put '#' (hashtag) in front of your 
+        element ID.<br>
+        To use a class selector on CSS, you would instead use a '.' (fullstop/dot)
+        infront of the element Class.
+       </p>
+
+       <p>
+        One trick I would use to determine which selector to use is asking myself
+        "Will I need to use this css setting for something else?" If the answer is
+        yes. You will probably need a class selector rather than an ID. 
+        Here are somethings you should try and remember when choosing which selector
+        to use.
+        <ul>
+            <li>If more than one elements on the page will need the same styling, use Class.</li>
+            <li>If only one element will use the styling then its best to use an ID selector</li>
+            <li>Use names that defines the function of the HTML the class or id encompass, not just the appearance. For example: "navigation bar" vs "royal blue."</li>
+            <li>Try not to use classes and IDs to replicate HTML elements like h1, h2 and p.</li>
+            <li>Rather than overuse classes, try to use div to improve performance.</li>
+        </ul>
+       </p>
+   </div>
+
+  <footer>
+     <a href="../../index.html">Back to Home</a>
+  </footer>
+  </body>
+</html>
