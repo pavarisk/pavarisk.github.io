@@ -70,7 +70,9 @@ a:hover {
 }
 
 .container {
-    margin: 20 15 10 15;
+    margin-top: 3%;
+    padding: 55px;
+
 }
 
 
@@ -107,8 +109,9 @@ a:hover {
     text-align: center;
     padding: 55px;
     flex: 1;
-    margin-top: 100px;
-
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
 }
 
 p {
