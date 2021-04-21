@@ -17,10 +17,15 @@ body    {
 
 a {
     color: #8E8D8A;
+    text-decoration: none;
+}
+
+a:hover { 
     text-decoration: underline;
     text-decoration-style: solid;
     text-underline-offset: 4px;
 }
+
 
 .nav-bar    {
     display: flex;
