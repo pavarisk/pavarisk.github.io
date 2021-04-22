@@ -109,7 +109,7 @@ a:hover {
     font-size: 1.2em;
     font-weight: bold;
     text-align: center;
-    color:black;
+    color: black !important;
     width: auto;
     margin: auto;
 }
