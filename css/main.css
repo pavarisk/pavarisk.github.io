@@ -1,5 +1,5 @@
 body    {
-    background-color:#EAE7DC;
+    background-color: #D8C3A5;
     font-family: 'Open Sans', sans-serif;
     color: #8E8D8A;
     margin: 0;
@@ -7,6 +7,7 @@ body    {
     display: flex;
     flex-direction: column;
 }
+
 
 .about-me {
     margin: 0;
@@ -110,8 +111,10 @@ a:hover {
     font-weight: bold;
     text-align: center;
     color: black !important;
-    width: auto;
-    margin: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative ;
 }
 
 .blog-wrapper {
