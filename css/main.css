@@ -91,18 +91,28 @@ a:hover {
     display: flex;
     justify-content: space-between;
     padding: 100px;
+    align-items: center;
 }
 
 .blog-2 {
     display: flex;
     justify-content: space-between;
     padding: 100px;
+    align-items: center;
 }
 
 .blog-3 {
     display: flex;
     justify-content: space-between;
     padding: 100px;
+    align-items: center;
+}
+
+.blog-4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    align-items: center;
 }
 
 .about-me { 
