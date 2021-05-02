@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../custom.css">
+    <title>JS Fundamentals &#128163;</title>
+  </head>
+  <body id="body" class="body bg-light text-dark">
+
+    <!-- Navigation bar-->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">BOMB &#128163;</a>
+          <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="my-blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about-me.html">About Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Page Content Header -->
+    <main class="content mt-5 mb-5">
+        <div class="header container-fluid p-3 mb-2 text-dark">
+            <div class="col-12">
+                <header>
+                <h1 class="display-5 text-center">JavaScript Fundamentals</h1>
+                <p class="lead text-center">What I have learned about JavaScript so far</p>
+                </header>
+            </div>
+        </div>
+
+        <!--Blogs container-->
+            <div class="container-sm mx-auto w-75 p-5 pt-0">
+
+                <img src="../../images/java-landing.jpg" class="img-fluid rounded p-5 mx-auto d-block" alt="JAVASCRIPT">
+
+                <p class="lead p-3 text-center">
+                    Lets briefly discuss the differences between HTML and CSS
+                </p>
+
+                <p>
+                    The HyperText Markup Language (HTML) is the structure and the content 
+                    of the website, it is plain but very effective at what it is meant to 
+                    do. All the while the Cascading Style Sheet (CSS) changes the way that 
+                    the structure and the content is presented to the user.
+                </p>
+
+                <p>
+                    These two can be thought of as a house. HTML creates the structure of 
+                    the house(The walls, floor and roof) and puts content (Furnitures) into 
+                    the house. While CSS will paint the house, carpet the floor and rearrange 
+                    the furniture to make the house look nice. 
+                </p>
+
+                <img src="../../images/website-no-css.jpg" class="img-fluid rounded p-5 mx-auto d-block" alt="website-no-css">
+
+                <p class="lead p-3 text-center">
+                    JavaScript control flow and loops
+                </p>
+
+                <p>
+                    The control flow is the order in which the computer executes statements in your script. 
+                    This means that the control flow is the order that our computer uses 
+                    to decide on which part of your code to run next. Most of the time 
+                    our codes will run from top to bottom, but sometimes we need it to 
+                    do something differently so that we don’t run into any problems. 
+                </p>
+
+                <p>
+                    A loop is one way of controlling the flow of how your code would run. 
+                    It is a sequence of instructions that is continually repeated for a 
+                    specified amount of time or until a certain condition is met in 
+                    computer programming. 
+                </p>
+
+                <p>
+                    So if I was to take control flow out of a coding concept and apply it 
+                    to our everyday life it can almost be thought of as your daily 
+                    schedule. If you have a list of things you have to get to that day, 
+                    typically the list will be written in order of things to do but we 
+                    do not necessarily have to go about it from top to bottom. Sometimes 
+                    it is important that something gets done a few times or until a 
+                    certain condition is met. 
+                </p>
+
+                <p>
+                    For example, you may need the repetition to do something like going 
+                    to the gym and repeatedly lifting weight for the result that you 
+                    will get stronger. Another example, you may need to look for a pair 
+                    of shoes which will require you to go into the shop and look around 
+                    at different shoes until you find the one that you want. Both of 
+                    these examples are to simplify loops in a non technical manner. 
+                </p>
+
+                <p class="lead p-3 text-center">
+                    What is the DOM? How would you interact with it?
+                </p>
+
+                <p>
+                    The Documents Object Model or the DOM is a representation of your 
+                    entire website starting from as far back as the window and breaking 
+                    the components down to every little single element. This gives us a 
+                    way to pinpoint access our elements using JavaScript.
+                </p>
+
+                <img src="../../images/dom-tree.png" class="img-fluid rounded p-5 mx-auto d-block" alt="DOM tree examples">
+                
+                <p>
+                    Easiest way to choose the element you would like to interact with is to use document.getElementById(“id”). 
+                </p>
+
+                <p class="lead p-3 text-center">
+                    What are functions and why are they useful to us?
+                </p>
+
+                <p>
+                    Functions in JavaScript are typically a block of code written to 
+                    perform a specific task. The function will run when  “something” 
+                    calls on it.<br>
+                    It can be used to do many things and one of them is to make your
+                    website more slightly more exciting.
+                </p>
+
+                <div class="container d-flex flex-column justify-content-center">
+                    <button id="myBtn" type="button" class="btn-dark">Try Me!</button>
+                    <p id="text"></p>
+                </div>
+
+                <img src="../../images/func-ex1.png" class="img-fluid rounded p-5 mx-auto d-block" alt="example of function">
+
+                <p class="lead p-3 text-center">
+                    Differences between Arrays and Objects?
+                </p>
+
+                <p>
+                    Arrays are lists of data you want to store, similar to grocery lists. 
+                    Objects are slightly different, they are “things” with 
+                    characteristics or properties more like a car or a house or even 
+                    something like personal contact information. 
+                </p>
+
+                <img src="../../images/arrays-objects.png" class="img-fluid rounded p-5 mx-auto d-block" alt="Arrays and Objects">
+
+                <p>
+                    To access the information from either an array or object, there 
+                    is a slight difference as to how you would access the data you 
+                    require. For example, you may want to present the whole list(array) 
+                    or just some items from the list. This can be done by just calling 
+                    the array or specifying the items from the array. In programming, 
+                    the start of the count is not on 1 but 0. So when you are choosing 
+                    which item you want from the array start your count from 0. 
+                    Similarly you can call on the whole object or call on specific 
+                    property of the object. 
+                </p>
+
+                <div class="sideBySide container-fluid d-flex flex-column flex-xl-row">
+                <img src="../../images/arrays-objects-access.png" class="img-fluid rounded p-5 mx-auto d-block" alt="Arrays and Objects">
+                <img src="../../images/arrays-objects-log.png" class="img-fluid rounded p-5 mx-auto d-block" alt="Arrays and Objects">
+                </div>
+
+            </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer id="footer" class="footer d-flex justify-content-end py-3 bg-secondary">
+        <div class="container-fluid col-12">
+          <span class="center text-white">Made by Pavaris Kakanat</span>
+        </div>
+      </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

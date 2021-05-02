@@ -1,0 +1,43 @@
+.center {
+    text-align: center !important;
+}
+
+html, body {
+    height: 100%;
+    line-height: 1.5;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(24, 100, 60);
+  }
+
+.content {
+    flex: 1 0 auto;
+  }
+#footer {
+    flex-shrink: 0;
+    text-align: center;
+  }
+
+#blogBox {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+  text-indent: 40px;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+ul, ol {
+  font-size: 1.2rem;
+}
+
+.lead {
+  font-size: 1.8rem;
+}
