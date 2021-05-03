@@ -26,12 +26,15 @@ body {
 }
 
 p {
-  text-indent: 40px;
   margin-left:auto;
   margin-right: auto;
   text-align: left;
   line-height: 2;
   font-size: 1.2rem;
+}
+
+p > .inDent {
+  text-indent: 40px;
 }
 
 ul, ol {
