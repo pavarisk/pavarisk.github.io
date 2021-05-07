@@ -1,25 +1,4 @@
 
-
-
-//Arrays//
-var books = ["Dictionary", "Harry Potter", "1984", "Skullduggery Pleasant"];
-//object//
-var me = {
-    "firstName": "Pavaris",
-    "lastName": "Kakanat",
-    "age": 26,
-};
-//accessing Arrays//
-console.log(books);
-//accessing specific Arrays//
-console.log(books[0] + ", " + books[3]);
-//accessing Object//
-console.log(me);
-//accessing specific Object property//
-console.log(me.firstName + " " + me.lastName)
-
-
-
 document.getElementById("myBtn").addEventListener("click", btnclick);
 
 function btnclick() {
@@ -32,3 +11,5 @@ function btnclick() {
     } 
       document.getElementById("text").innerHTML = txt;
 }
+
+document.getElementsByClassName("hover").addEventListener("mouseover").style

@@ -44,3 +44,23 @@ ul, ol {
 .lead {
   font-size: 1.8rem;
 }
+
+.hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+.hover:hover {
+  filter: brightness(0.3);
+  opacity: 1;
+  color: white;
+}
+
+.caption {
+  opacity: 0;
+}
+
+.caption:hover {
+  filter: brightness(1);
+  opacity: 1;
+}
