@@ -50,17 +50,50 @@ ul, ol {
   background-color: whitesmoke;
 }
 
-.hover:hover {
+.hover:hover .image {
   filter: brightness(0.3);
   opacity: 1;
   color: white;
+}
+
+.hover:hover .caption{
+  filter: brightness(1);
+  opacity: 1;
 }
 
 .caption {
   opacity: 0;
 }
 
-.caption:hover {
-  filter: brightness(1);
-  opacity: 1;
+#myPic {
+  max-width: 80%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about-txt {
+  max-width: 75%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .myPic {
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about-txt {
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 20px;
+  }
 }
